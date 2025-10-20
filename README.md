@@ -23,6 +23,7 @@ streamlit run fraud_detection.py
 
 
 Enter transaction details: Transaction Type, Amount, Old/New Balance for Sender and Receiver. Click Predict to see if the transaction is likely fraudulent.
+
 ---
 
 ## Model
@@ -34,6 +35,7 @@ Class imbalance handled: class_weight="balanced"
 Pipeline: Scaling numeric features + One-Hot encoding categorical features
 
 Works best on TRANSFER and CASH_OUT transactions, which contain most frauds.
+
 ---
 
 ## Notes
